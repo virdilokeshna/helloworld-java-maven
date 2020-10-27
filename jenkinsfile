@@ -7,7 +7,7 @@ node {
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
       mvnHome = tool 'maven'
-      sonar = tool 'sonar'
+      sonar = tool 'sonarqube'
       }
    stage('SonarQube analysis') {
       withSonarQubeEnv('sonarqube') {
