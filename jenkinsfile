@@ -10,7 +10,7 @@ node {
       //sonar = tool 'sonarqube'
       }
 
-   }
+  // }
    stage('Build') {
       // Run the maven build
       if (isUnix()) {
